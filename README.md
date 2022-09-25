@@ -33,3 +33,7 @@ while installing it.
 1. use BootstrapComponents Card and Button instead of div to show products in homescreen.
 2. Created two new Components product.js to render product items in list and rating.js
    to render rating for a particular product.
+
+#12-Add Product Screen
+
+1.

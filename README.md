@@ -1,6 +1,5 @@
-# MERN AMAZONA
+# MERN AT PROJECT
 
-# Lessons
 
 1. Introduction
 2. Install Tools

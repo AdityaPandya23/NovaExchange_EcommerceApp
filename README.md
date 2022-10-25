@@ -36,4 +36,26 @@ while installing it.
 
 #12-Add Product Screen
 
-1.
+1. Fetch products from the backend and display each product on the specified url identified
+   as slug for each product.
+2. Then update the backend api to fetch the requested product as per the slug
+   value and then send back the response if the slug exists.
+3. Then write the logic to return where we render the image for the product in one column
+   and the product description,rating,price in second column and price and condition
+   for if the product exist then the button for add to cart.
+4. Use react template async to get the product name on the title of the tab on selecting of
+   any product.
+
+#12-Create Loading component
+
+1. create loading component.
+2. use spinner component.
+3. create message component.
+4. create utils.js to define getError function.
+
+#13-Create React Context.
+
+1. Create React context
+2. define reducer.
+3. create store provider
+4. implement add to cart button click handler.

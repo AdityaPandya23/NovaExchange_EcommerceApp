@@ -1,6 +1,5 @@
 # MERN AT PROJECT
 
-
 1. Introduction
 2. Install Tools
 3. Create React App
@@ -45,14 +44,14 @@ while installing it.
 4. Use react template async to get the product name on the title of the tab on selecting of
    any product.
 
-#12-Create Loading component
+#13-Create Loading component
 
 1. create loading component.
 2. use spinner component.
 3. create message component.
 4. create utils.js to define getError function.
 
-#13-Create React Context.
+#14-Create React Context.
 
 1. Create React context
 2. define reducer.

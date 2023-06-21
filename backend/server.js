@@ -29,6 +29,7 @@ app.use('/api/products', productRouter);
 app.use('/api/users', userRouter);
 app.use('/api/orders', orderRouter);
 
+//middleware which runs when error on expressAsyncHandler
 app.use((err, req, res, next) => {
   res.status(500).send({ message: err.message });
 });

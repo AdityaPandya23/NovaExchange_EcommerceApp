@@ -1,59 +1,36 @@
-# MERN AT PROJECT
+# NovaExchange Shopping Website
 
-1. Introduction
-2. Install Tools
-3. Create React App
-4. Create Git Repository
-   1).note: to start server go to cd frontend and then to npm start.
-   2).Slug: You use a slug when you want to refer to an item while preserving the ability to see, at a glance, what the item is i.e human readable identifier.
-   3). To import press ctrl + " " and tab.
-   4).we can use Link instead of a to get rid of page refreshing everytime happens when we click.
+This is a React-based e-commerce website where users can browse, search, and purchase products. Users can also create an account, add products to their cart, and complete an order.
 
-Note: If any not compatible with your react version, then to install it we have to use --force
-while installing it.
+## Installation
 
-#08-Fetch Products...
+1. Clone this repository to your local machine.
+2. Navigate to the project's root directory.
+3. Install dependencies by running `npm install` in your terminal.
+4. Start the local server by running `npm start`.
 
-1. Set Proxy in package.json to access frontend.
-2. we use axios library to fetch data from backend.
+## Features
 
-#09-Manage State By Reducer Hook...
+- Users can browse and search for products.
+- Users can add products to their cart and complete an order.
+- Users can create an account and log in to their account.
+- Users can view their profile and order history.
+- The site has an admin dashboard for managing products and orders.
 
-1. we use usereducer instead of usestate to manage complex state in the homescreen component.
-2. by using use reducer logger we can debug our state and find issues in our state changes.
+## Built With
 
-#10- Adding Bootstrap...
+- React
+- React-Bootstrap
+- React-Router-DOM
+- Axios
+- Node.js
+- Express
+- MongoDB
 
-1. use react bootstrap to build ui in our web app.
+## Authors
 
-#11-Create Product Component
+- Aditya Pandya - [GitHub](https://github.com/AdityaPandya23)
 
-1. use BootstrapComponents Card and Button instead of div to show products in homescreen.
-2. Created two new Components product.js to render product items in list and rating.js
-   to render rating for a particular product.
+## Acknowledgments
 
-#12-Add Product Screen
-
-1. Fetch products from the backend and display each product on the specified url identified
-   as slug for each product.
-2. Then update the backend api to fetch the requested product as per the slug
-   value and then send back the response if the slug exists.
-3. Then write the logic to return where we render the image for the product in one column
-   and the product description,rating,price in second column and price and condition
-   for if the product exist then the button for add to cart.
-4. Use react template async to get the product name on the title of the tab on selecting of
-   any product.
-
-#13-Create Loading component
-
-1. create loading component.
-2. use spinner component.
-3. create message component.
-4. create utils.js to define getError function.
-
-#14-Create React Context.
-
-1. Create React context
-2. define reducer.
-3. create store provider
-4. implement add to cart button click handler.
+This project was built as a learning exercise using the MERN stack. Thank you to the creators of React, React-Bootstrap, and the other technologies used in this project.

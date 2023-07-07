@@ -22,6 +22,7 @@ export default function SigninScreen() {
   const { userInfo } = state;
 
   const submitHandler = async (e) => {
+    //to prevent refreshing page when user clicks on sign in button
     e.preventDefault();
     try {
       const { data } = await Axios.post('/api/users/signin', {
